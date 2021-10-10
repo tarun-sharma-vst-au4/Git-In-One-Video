@@ -1,1 +1,7 @@
-mylogs.log
+#if we just add mylogs.log, it will ignore all files in the folder of this name,
+#/mylogs.log --> ignore file on the root folder
+#*.log --> ignore all files ending with log
+#*.cpp --> ignore all files with cpp
+# ignfol/ --> to ignore a directoy 
+/mylogs.log  
+*.log   
